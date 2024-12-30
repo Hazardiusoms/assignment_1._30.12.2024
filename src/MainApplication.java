@@ -44,7 +44,7 @@ public class MainApplication {
 
                 Teacher teacher = new Teacher(name, surname, age, gender, subject, yearsOfExperience, salary);
                 if (yearsOfExperience > 10) {
-                    teacher.giveRaise(10); // 10% raise
+                    teacher.giveRaise(10); 
                 }
                 school.addMember(teacher);
             }
