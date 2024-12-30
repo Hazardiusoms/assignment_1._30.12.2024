@@ -6,7 +6,7 @@ public class Person {
     private int age;
     private boolean gender;
 
-    // Constructor
+   
     public Person(String name, String surname, int age, String gender) {
         this.name = name;
         this.surname = surname;
